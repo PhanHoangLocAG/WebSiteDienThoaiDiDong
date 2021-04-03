@@ -2,6 +2,12 @@
 
 return [
 
+
+    'socialite' => [
+        'drivers' => [
+            'google',
+        ],
+    ],
     /*
     |--------------------------------------------------------------------------
     | Authentication Defaults

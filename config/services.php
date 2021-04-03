@@ -30,4 +30,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'google' => [
+        'client_id' => '224262085875-o6dg9jedi76aubbsvib42asvvsehs7l8.apps.googleusercontent.com',
+        'client_secret' => 'GQrGtGkaeQjwV5Cl3qmOUKdB',
+        'redirect' => 'http://localhost/DoAnChuyenNganh/public/auth/google/callback',
+    ],
+    'facebook' => [
+        'client_id' => '1392743561058565',
+        'client_secret' => '30070d0c20cc1eb2c35b8da08fb8724a',
+        'redirect' => 'http://localhost/DoAnChuyenNganh/public/auth/facebook/callback',
+    ],
 ];
